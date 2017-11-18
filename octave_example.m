@@ -1,1 +1,4 @@
-printf("Free Software is needed for Free Science\n");
+filename = "free.txt";
+fid = fopen (filename, "w");
+fputs (fid, "Free Software is needed for Free Science");
+fclose (fid);
